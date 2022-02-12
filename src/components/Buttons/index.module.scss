@@ -1,0 +1,33 @@
+.btn {
+  font-family: "Inter", Helvetica, sans-serif;
+  font-size: 0.85rem;
+  border: none;
+  height: 45px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  column-gap: 8px;
+  border-radius: 8px;
+  overflow: auto;
+
+  svg {
+    width: 20px;
+    height: 20px;
+  }
+}
+
+.github {
+  background-color: #24292e;
+  color: #ffffff;
+}
+
+.facebook {
+  background-color: #127af2;
+  color: #ffffff;
+}
+
+.google {
+  background-color: #ffffff;
+  color: #6f6f6f;
+  border: 1px solid #e2e2e2;
+}

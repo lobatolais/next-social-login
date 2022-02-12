@@ -1,0 +1,30 @@
+.page_container {
+  height: 100vh;
+  display: flex;
+  padding: 0 2rem;
+  align-items: center;
+  justify-content: center;
+
+  section {
+    background-color: #ffffff;
+    height: 542px;
+    border-radius: 16px;
+    box-shadow: 5px 5px 16px #f0f0f0;
+    width: 385px;
+    overflow: hidden;
+  }
+}
+
+.slider {
+  height: 100%;
+  display: flex;
+  transition: all 0.9s;
+}
+
+.login {
+  transform: translateX(0);
+}
+
+.logged {
+  transform: translateX(-385px);
+}

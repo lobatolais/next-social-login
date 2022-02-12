@@ -1,0 +1,24 @@
+.login_container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100%;
+  min-width: 385px;
+  padding: 3rem;
+
+  h1 {
+    max-width: 260px;
+    font-size: 3rem;
+    font-weight: 600;
+
+    span {
+      font-size: 2.3rem;
+    }
+  }
+}
+
+.btn_group {
+  display: flex;
+  flex-direction: column;
+  row-gap: 12px;
+}
