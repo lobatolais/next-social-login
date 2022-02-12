@@ -24,7 +24,7 @@ export const Logged = () => {
         <p>
           Hey {session?.user?.name},
           <br />
-          you&apos;re signed in!
+          you&apos;re logged in!
         </p>
       </div>
       <button onClick={() => signOut()} className={styles.btn_signout}>

@@ -12,7 +12,7 @@ export const Github = () => {
         className={`${styles.btn} ${styles.github}`}
       >
         <BsGithub />
-        Sign in with Github
+        Login with Github
       </button>
     </>
   )

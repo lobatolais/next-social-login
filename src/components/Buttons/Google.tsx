@@ -11,7 +11,7 @@ export const Google = () => {
       className={`${styles.btn} ${styles.google}`}
     >
       <FcGoogle />
-      Sign in with Google
+      Login with Google
     </button>
   )
 }
