@@ -11,7 +11,7 @@ export const Facebook = () => {
       className={`${styles.btn} ${styles.facebook}`}
     >
       <BsFacebook />
-      Sign in with Facebook
+      Login with Facebook
     </button>
   )
 }
