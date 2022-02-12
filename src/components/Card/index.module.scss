@@ -1,5 +1,5 @@
 .page_container {
-  height: 100vh;
+  height: 100%;
   display: flex;
   padding: 0 2rem;
   align-items: center;
@@ -26,5 +26,5 @@
 }
 
 .logged {
-  transform: translateX(-385px);
+  transform: translateX(-100%);
 }
