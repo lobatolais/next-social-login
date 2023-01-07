@@ -1,4 +1,5 @@
 import { Inter } from "@next/font/google"
+import { SessionProvider } from "next-auth/react"
 
 import type { AppProps } from "next/app"
 
@@ -9,7 +10,10 @@ const inter = Inter({
   fallback: ["Helvetica", "sans-serif"],
 })
 
-export default function App({ Component, pageProps }: AppProps) {
+export default function App({
+  Component,
+  pageProps: { session, ...pageProps },
+}: AppProps) {
   return (
     <>
       <style jsx global>{`
@@ -21,7 +25,9 @@ export default function App({ Component, pageProps }: AppProps) {
           font-family: ${inter.style.fontFamily};
         }
       `}</style>
-      <Component {...pageProps} />
+      <SessionProvider session={session}>
+        <Component {...pageProps} />
+      </SessionProvider>
     </>
   )
 }
