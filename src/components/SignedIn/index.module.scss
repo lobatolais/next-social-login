@@ -31,11 +31,11 @@
 .btn_signout {
   position: absolute;
   z-index: 2;
-  background-color: #f8f8f8;
+  background-color: var(--gray-50);
   bottom: 3rem;
 
   &:hover {
-    background-color: var(--gray-50);
+    background-color: var(--gray-100);
   }
 }
 
