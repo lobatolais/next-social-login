@@ -1,5 +1,7 @@
 import { FC } from "react"
 
+import { FacebookButton } from "../Buttons/FacebookButton"
+
 import styles from "./index.module.scss"
 
 export const SignIn: FC = () => {
@@ -9,7 +11,7 @@ export const SignIn: FC = () => {
       <div className={styles.btn_group}>
         <button>Github</button>
         <button>Google</button>
-        <button>Facebook</button>
+        <FacebookButton />
       </div>
     </div>
   )
