@@ -1,4 +1,5 @@
 import { FC } from "react"
+import Head from "next/head"
 
 import type { NextPage } from "next/types"
 
@@ -8,11 +9,16 @@ import { Page } from "../src/components/Page"
 
 const Home: FC<NextPage> = () => {
   return (
-    <Page>
-      <Card>
-        <CardAnimation />
-      </Card>
-    </Page>
+    <>
+      <Head>
+        <title>Next Social Login</title>
+      </Head>
+      <Page>
+        <Card>
+          <CardAnimation />
+        </Card>
+      </Page>
+    </>
   )
 }
 
