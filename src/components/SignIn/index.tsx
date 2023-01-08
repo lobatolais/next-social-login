@@ -1,8 +1,8 @@
 import { FC } from "react"
 
-import { FacebookButton } from "../Buttons/FacebookButton"
-import { GithubButton } from "../Buttons/GithubButton"
-import { GoogleButton } from "../Buttons/GoogleButton"
+import { FacebookButton } from "src/components/Buttons/FacebookButton"
+import { GithubButton } from "src/components/Buttons/GithubButton"
+import { GoogleButton } from "src/components/Buttons/GoogleButton"
 
 import styles from "./index.module.scss"
 

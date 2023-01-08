@@ -3,7 +3,7 @@ import { useSession, signOut } from "next-auth/react"
 import Lottie from "lottie-react"
 import { BsFillCheckCircleFill } from "react-icons/bs"
 
-import confetti from "../../../public/lotties/confetti.json"
+import confetti from "public/lotties/confetti.json"
 
 import styles from "./index.module.scss"
 
