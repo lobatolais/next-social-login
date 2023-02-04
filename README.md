@@ -7,7 +7,7 @@
 ## Demo
 
 <div align="center">
-  <img src="https://user-images.githubusercontent.com/38794059/214443913-3563e4ee-104c-43ca-86f2-825437d28833.gif" width="600" />
+  <img src="https://user-images.githubusercontent.com/38794059/216788052-987e13ed-45d6-4aa0-ae45-2d129b587f51.gif" width="600" />
 </div>
 
 ## Running Locally
