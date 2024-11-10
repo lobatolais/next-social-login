@@ -1,8 +1,6 @@
-import { Inter } from "@next/font/google"
 import { SessionProvider } from "next-auth/react"
-
+import { Inter } from "next/font/google"
 import type { AppProps } from "next/app"
-
 import "styles/globals.scss"
 
 const inter = Inter({

@@ -17,6 +17,8 @@
 }
 
 html {
+  font-family: var(--font-inter);
+
   @media (max-width: 1080px) {
     font-size: 93.75%; // 15px for tablets
   }
@@ -43,4 +45,5 @@ button {
   border-radius: 8px;
   padding: 0.85rem 2rem;
   font-size: 0.85rem;
+  font-family: var(--font-inter);
 }
